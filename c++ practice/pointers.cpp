@@ -65,7 +65,9 @@ cout<<b;*/
 int a = 4;
 int b = 5;
     //
-    int swap(a=b);
+    a=a^b;
+    b=b^a; // we can use bitwise or(^) operator to swap two variable's values without using third variable
+    a=a^b;
     cout<<a<<endl;
     cout<<b;
 

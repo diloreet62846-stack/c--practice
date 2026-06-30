@@ -24,11 +24,11 @@ int main()
 
 }*/
 
-  int n;
+  /*int n;
   cout<<"enter n: "<<endl;
   cin>>n;
   for(int i=0;i<n;i++){
-   /* for(int j=i;j<n;j++){
+    for(int j=i;j<n;j++){
     cout<<"*";
   }
   cout<<endl;*/

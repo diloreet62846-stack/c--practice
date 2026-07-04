@@ -68,7 +68,7 @@ int main(){
     }
 }*/
 
-#include<iostream>
+/*#include<iostream>
 using namespace std;
 int fibo(int n){                               
  if(n<=1){                                      //1.define a variable(n) to take input from user in your main function
@@ -87,4 +87,5 @@ int main(){                                      // define a function (fibo)
       cout<<fibo(i)<<endl;
    }
 
-}
+}*/
+.

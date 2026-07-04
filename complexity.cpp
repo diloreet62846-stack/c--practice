@@ -20,7 +20,7 @@ for(int i =0;i<6;i++){             // O(n)
 
    // O(log n) - when input size repeatedely decreases
    //  linear  search
-     /*int n;
+     int n;
      cout<<"enter elememt that you want to find: "<<endl;
      cin>>n;
      int i;
@@ -42,10 +42,10 @@ for(int i =0;i<6;i++){             // O(n)
     }
     
 
-}*/
+}
 
 //binary search
-int n;
+/*int n;
 cout<<"enter the element: "<<endl;
 cin>>n;
 int arr[6]={2,4,6,8,9,10};
@@ -62,4 +62,4 @@ for(int i =0;i<6;i++){
 }
 
 }
-}
+}*/

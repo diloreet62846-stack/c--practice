@@ -59,7 +59,6 @@ for(int j = i+1;j<n;j++){                                 8. define loop k outsi
 }
  }*/
 
-
  /*[merge sort]*/
   /*#include<iostream>
   using namespace std;
@@ -127,3 +126,24 @@ for(int j = i+1;j<n;j++){                                 8. define loop k outsi
     for(int i =0; i<n;i++)
     cout<<arr[i]<<" ";
 }*/
+/*[insertion sort]*/
+#include<iostream>
+using namespace std;
+void insert(int arr[],int n){
+for(int i=1;i<n;i++){
+int key = arr[i];
+int j = i-1;
+while(j>=0 && arr[j]>key) { 
+arr[j+1]=arr[j];
+j--;
+}
+arr[j+1]=key ; 
+}
+}
+int main(){
+    int arr[6]={3,5,8,4,1,2};
+    int n = sizeof(arr)/sizeof(arr[0]);
+    insert(arr,n);
+    for(int i=0;i<n;i++)
+    cout<<arr[i];
+    }
